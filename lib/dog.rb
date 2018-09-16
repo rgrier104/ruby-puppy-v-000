@@ -11,7 +11,8 @@ class Dog
 
   def self.all
     @@all.map do |name|
-      name.name
+      puts name.name
+    end
   end
 
   def self.clear_all
